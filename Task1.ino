@@ -52,7 +52,7 @@ void loop() {
     } 
 
     while (ledState1 == HIGH) {
-      ledState1 = LOW
+      ledState1 = LOW;
     }
 
     digitalWrite(pin1, ledState1);
@@ -65,7 +65,7 @@ void loop() {
     } 
 
     while (ledState2 == HIGH) {
-      ledState2 = LOW
+      ledState2 = LOW;
     }
 
     digitalWrite(pin2, ledState2);
@@ -79,7 +79,7 @@ void loop() {
     } 
 
     while (ledState3 == HIGH) {
-      ledState3 = LOW
+      ledState3 = LOW;
     }
 
     digitalWrite(pin3, ledState3);
@@ -93,7 +93,7 @@ void loop() {
     } 
 
     while (ledState4 == HIGH) {
-      ledState4 = LOW
+      ledState4 = LOW;
     }
 
     digitalWrite(pin4, ledState4);
@@ -107,7 +107,7 @@ void loop() {
     } 
 
     while (ledState5 == HIGH) {
-      ledState1 = LOW
+      ledState1 = LOW;
     }
 
     digitalWrite(pin5, ledState5);
@@ -121,7 +121,7 @@ void loop() {
     } 
 
     while (ledState6 == HIGH) {
-      ledState6 = LOW
+      ledState6 = LOW;
     }
 
     digitalWrite(pin6, ledState6);
