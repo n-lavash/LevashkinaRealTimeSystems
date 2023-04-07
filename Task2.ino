@@ -16,12 +16,12 @@ int ledState4 = LOW;
 int ledState5 = LOW;
 int ledState6 = LOW;
 
-const long intervalMls1 = 100;
-const long intervalMls2 = 600;
-const long intervalMls3 = 7000;
-const long intervalMls4 = 15000;
-const long intervalMls5 = 80000;
-const long intervalMls6 = 200000;
+const long intervalMls1 = 10000;
+const long intervalMls2 = 18500;
+const long intervalMls3 = 29000;
+const long intervalMls4 = 60500;
+const long intervalMls5 = 100000;
+const long intervalMls6 = 225000;
 
 void setup() {
     
