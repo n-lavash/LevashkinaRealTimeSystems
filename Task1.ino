@@ -47,10 +47,12 @@ void loop() {
     previousMls1 = currentMillis;
 
     // Включение и выключение светодиода
-    if (ledState1 == LOW) {
+    while (ledState1 == LOW) {
       ledState1 = HIGH;
-    } else {
-      ledState1 = LOW;
+    } 
+
+    while (ledState1 == HIGH) {
+      ledState1 = LOW
     }
 
     digitalWrite(pin1, ledState1);
@@ -58,10 +60,12 @@ void loop() {
 
   if (currentMillis >= intervalMls2) {
     
-    if (ledState2 == LOW) {
+    while (ledState2 == LOW) {
       ledState2 = HIGH;
-    } else {
-      ledState2 = LOW;
+    } 
+
+    while (ledState2 == HIGH) {
+      ledState2 = LOW
     }
 
     digitalWrite(pin2, ledState2);
@@ -70,10 +74,12 @@ void loop() {
     if (currentMillis - previousMls3 >= intervalMls3) {
     previousMls3 = currentMillis;
 
-    if (ledState3 == LOW) {
+    while (ledState3 == LOW) {
       ledState3 = HIGH;
-    } else {
-      ledState3 = LOW;
+    } 
+
+    while (ledState3 == HIGH) {
+      ledState3 = LOW
     }
 
     digitalWrite(pin3, ledState3);
@@ -82,10 +88,12 @@ void loop() {
   if (currentMillis - previousMls4 >= intervalMls4) {
     previousMls4 = currentMillis;
 
-    if (ledState4 == LOW) {
+    while (ledState4 == LOW) {
       ledState4 = HIGH;
-    } else {
-      ledState4 = LOW;
+    } 
+
+    while (ledState4 == HIGH) {
+      ledState4 = LOW
     }
 
     digitalWrite(pin4, ledState4);
@@ -94,10 +102,12 @@ void loop() {
   if (currentMillis - previousMls5 >= intervalMls5) {
     previousMls5 = currentMillis;
 
-    if (ledState5 == LOW) {
-      ledState5 = HIGH;
-    } else {
-      ledState5 = LOW;
+    while (ledState5 == LOW) {
+      ledState1 = HIGH;
+    } 
+
+    while (ledState5 == HIGH) {
+      ledState1 = LOW
     }
 
     digitalWrite(pin5, ledState5);
@@ -106,10 +116,12 @@ void loop() {
   if (currentMillis - previousMls6 >= intervalMls6) {
     previousMls6 = currentMillis;
 
-    if (ledState6 == LOW) {
+    while (ledState6 == LOW) {
       ledState6 = HIGH;
-    } else {
-      ledState6 = LOW;
+    } 
+
+    while (ledState6 == HIGH) {
+      ledState6 = LOW
     }
 
     digitalWrite(pin6, ledState6);
